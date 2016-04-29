@@ -2,12 +2,7 @@ module.exports = function() {
 
 
   const grandezas = {
-    g: {
-      nome: 'Aceleração padrão da gravidade', 
-      valor: '9.807', 
-      unidade: ['m/s^2'],
-      definicao: require('./descricaoAceleracaoGravidade')
-    },
+    g: require('./constantes/g'),
 
      R: {
       nome: 'Constante Universal dos Gases', 
