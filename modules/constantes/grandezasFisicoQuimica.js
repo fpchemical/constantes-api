@@ -13,11 +13,9 @@ module.exports = function() {
     c: require('./c'),
     Vmol: require('./Vmol'),
     T0: require('./T0')
-
   };
   const procuraConstantePorSimbolo = (simbolo) => {
-    if(simbolo in grandezas){ return  grandezas[simbolo] }
-     
+    if(simbolo in grandezas) return  grandezas[simbolo];  
   };
   return procuraConstantePorSimbolo;
 };
