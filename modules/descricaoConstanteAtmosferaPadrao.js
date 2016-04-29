@@ -1,0 +1,1 @@
+module.exports = 'O termo atmosfera padrão por definição refere-se à pressão exata de 101 325 Pa.[1] Ele é utilizado como unidade de pressão, com o símbolo atm (1 atm = 101 325 Pa). Este termo refere-se ao mesmo valor de pressão definida como pressão normal.';

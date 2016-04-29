@@ -1,0 +1,1 @@
+module.exports = 'A constante de Planck, representada por h, é uma das constantes fundamentais da Física.[1] Tem um papel fundamental na Mecânica quântica, aparecendo sempre no estudo de fenômenos em que a explicação por meio da mecânica quântica é relevante. Tem o seu nome em homenagem a Max Planck, um dos fundadores da Teoria Quântica.';

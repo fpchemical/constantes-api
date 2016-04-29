@@ -1,0 +1,1 @@
+module.exports = 'A carga do elétron é de -1,60217653(14)×10−19 C ,que é o valor oposto à carga do próton. Esta é uma constante fundamental da física e a unidade de carga elétrica no sistema de unidades atômicas. Foi medido primeiramente na famosa experiência da gota de óleo de Robert Andrews Millikan em 1909, a carga do elétron é considerada indivisível.'

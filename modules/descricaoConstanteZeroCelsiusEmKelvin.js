@@ -1,0 +1,1 @@
+module.exports = '0°C equivale a 273,15K'

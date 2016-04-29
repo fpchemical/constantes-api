@@ -1,0 +1,1 @@
+module.exports = 'gravidade é a intensidade do campo gravitacional em um determinado ponto'

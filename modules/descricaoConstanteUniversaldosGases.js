@@ -1,0 +1,1 @@
+module.exports = 'A constante universal dos gases perfeitos é uma constante física que relaciona a quantidade de um gás (medida em número de moléculas) com a pressão e a temperatura. Um gás perfeito é um gás imaginário que respeita esta constante a qual assume que o volume da molécula é zero'

@@ -1,0 +1,1 @@
+module.exports = 'A "constante de Faraday" (símbolo: F) é uma constante física fundamental que representa a carga molar elementar[1] A constante recebeu este nome em homenagem ao cientista britânico Michael Faraday, devido aos seus vastos estudos em eletroquímica.';

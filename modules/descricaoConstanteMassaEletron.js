@@ -1,0 +1,1 @@
+module.exports = 'A velocidade da luz no vácuo, simbolizada pela letra c, é, por definição, igual a 299 792 458 metros por segundo.[1] O símbolo c origina-se do latim celeritas, que significa velocidade ou rapidez[2] . A velocidade da luz em um meio material transparente, tal como o vidro ou o ar, é menor que c, sendo a fração função do índice de refração do meio.';

@@ -1,0 +1,1 @@
+module.exports = 'Em química e física, a constante de Avogadro (símbolos: L, NA) é definida como sendo o número de partículas constituintes (normalmente átomos ou moléculas) por mol de uma determinada substância, em que o mol é uma das sete unidades básicas do Sistema Internacional de Unidades (SI).';

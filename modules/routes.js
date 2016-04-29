@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 }); 
-router.get('/constante/:simbolo', function(req, res, next) {
+router.get('/:simbolo', function(req, res, next) {
 
 const BuscaConstantePorSimbolo = require('../modules/grandezasFisicoQuimica');
 const buscaConstante = BuscaConstantePorSimbolo()
@@ -14,7 +14,7 @@ const buscaConstante = BuscaConstantePorSimbolo()
 });
 
 
-router.get('/constante/:simbolo/nome', function(req, res, next) {
+router.get('/:simbolo/nome', function(req, res, next) {
 
   const BuscaConstantePorSimbolo = require('../modules/grandezasFisicoQuimica');
   const buscaConstante = BuscaConstantePorSimbolo()
@@ -22,7 +22,7 @@ router.get('/constante/:simbolo/nome', function(req, res, next) {
   res.json(constante.nome);
 });
 
-router.get('/constante/:simbolo/valor', function(req, res, next) {
+router.get('/:simbolo/valor', function(req, res, next) {
 
   const BuscaConstantePorSimbolo = require('../modules/grandezasFisicoQuimica');
   const buscaConstante = BuscaConstantePorSimbolo()
@@ -30,7 +30,7 @@ router.get('/constante/:simbolo/valor', function(req, res, next) {
   res.json(constante.valor);
 });
 
-router.get('/constante/:simbolo/definicao', function(req, res, next) {
+router.get('/:simbolo/definicao', function(req, res, next) {
 
   const BuscaConstantePorSimbolo = require('../modules/grandezasFisicoQuimica');
   const buscaConstante = BuscaConstantePorSimbolo()
@@ -38,7 +38,7 @@ router.get('/constante/:simbolo/definicao', function(req, res, next) {
   res.json(constante.definicao);
 });
 
-router.get('/constante/:simbolo/unidade', function(req, res, next) {
+router.get('/:simbolo/unidade', function(req, res, next) {
 
   const BuscaConstantePorSimbolo = require('../modules/grandezasFisicoQuimica');
   const buscaConstante = BuscaConstantePorSimbolo()
@@ -46,8 +46,16 @@ router.get('/constante/:simbolo/unidade', function(req, res, next) {
   res.json(constante.unidade);
 });
 
+router.get('/:simbolo/outrasunidades', function(req, res, next) {
 
-router.get('/constante/:simbolo/unidade/:indice', function(req, res, next) {
+  const BuscaConstantePorSimbolo = require('../modules/grandezasFisicoQuimica');
+  const buscaConstante = BuscaConstantePorSimbolo()
+  const constante = buscaConstante(req.params.simbolo)
+  res.json(constante.valoresPorUnidade);
+});
+
+
+router.get('/:simbolo/unidade/:indice', function(req, res, next) {
 
   const BuscaConstantePorSimbolo = require('../modules/grandezasFisicoQuimica');
   const buscaConstante = BuscaConstantePorSimbolo()
