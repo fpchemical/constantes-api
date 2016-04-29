@@ -2,7 +2,7 @@ module.exports = function() {
 
 
   const grandezas = {
-    g: require('./constantes/g'),
+    g: require('./g'),
 
      R: {
       nome: 'Constante Universal dos Gases', 
